@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+:root
+{
+  --yellow:#FFC233;
+  --pink:#FF505F;
+  --white:#ffffff;
+}
+
+.container
+{
+  background-image:url("/assets/pexels-maxyne-barcel-10402282.jpg");
+  background-color:rgb(72, 82, 120);
+  background-size: cover;
+  background-blend-mode:multiply;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar
+{
+  display: flex;
+  padding: 20px 20px;
+}
+.list
+{
+  display: flex;
+  margin-top: 30px;
+}
+.list li
+{
+  list-style:none;
+  margin-left: 70px;
+  color:var(--yellow);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.logo
+{
+  margin:15px;
+}
+.button-small
+{
+  padding: 10px 30px;
+  color:var(--white);
+  background-color:var(--pink);
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 20px 0 0 350px;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero-heading
+{
+  color:var(--yellow);
+  font-size: 5rem;
+  text-align: center;
+  word-wrap: break-word;
+  letter-spacing: 4px;
+  padding: 0 20%;
+}
+.button-large
+{
+  margin-top: 50px;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 2px;
+  color: var(--white);
+  background-color:var(--pink);
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 20%;
+  margin-left: 500px;
+}
+.bottom
+{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+@media screen and (max-width:1000px) {
+  .hero-heading
+  {
+    font-size: 3em;
+    word-wrap: break-word;
+  }
+  .hero{
+    margin-top: 15%;
+  }
+  .bottom img
+  {
+    width: 100px;
+  }
+  .list , .button-small{
+    display: none;
+  }
+  
+.hero-heading
+{
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  padding: 0;
+}
+.button-large
+{
+  margin-top: 10px;
+  padding: 15px 30px;
+  width: 50%;
+  margin-left: 100px;
+}
+}
