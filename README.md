@@ -1,8 +1,5 @@
 # Food Restaurant Home Page
 
-## 🔗Demo Link
-https://samhith02.netlify.app/
-
 Built this **Responsive** Homepage **without using flexbox or grid** only by using HTML and CSS. 
 <br>
 
