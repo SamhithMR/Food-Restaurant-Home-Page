@@ -1,3 +1,9 @@
+/* 
+1.NAVBAR
+2.HERO
+3.MEDIA QUERIE
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -13,132 +19,125 @@
 
 .container
 {
-  background-image:url("/assets/pexels-maxyne-barcel-10402282.jpg");
+  background-image:url("./assets/pexels-maxyne-barcel-10402282.jpg");
   background-color:rgb(72, 82, 120);
   background-size: cover;
   background-blend-mode:multiply;
-  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 100vh;
+  height: 100%;
 }
 
 /* ------------------------------ */
 /* ---------- NAVBAR ------------ */
 /* ------------------------------ */
-.navbar
-{
-  display: flex;
-  padding: 20px 20px;
+
+.navbar{
+  height: 20vh;
+  width: 100vw;
+  line-height: 20vh;
 }
-.list
-{
-  display: flex;
-  margin-top: 30px;
+.navbar > *{
+  line-height: 1.7;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 1rem;
 }
-.list li
-{
-  list-style:none;
-  margin-left: 70px;
-  color:var(--yellow);
-  font-size: 1rem;
-  font-weight: 400;
-  transition: 0.2s ease-in-out;
+.navbar div:first-of-type{
+  width: 10%;
+}
+.navbar div:first-of-type img{
+  width: 100%;
+}
+.navbar div:nth-child(2){
+  width: 50%;
+  margin: 0 7%;
+}
+.list-item{
+  display: inline-block;
+  margin: 0 2rem;
+  color: var(--yellow);
   cursor: pointer;
 }
-.list li:hover{
- border-bottom: 1.5px solid var(--pink);
+.list-item:hover{
+  transition: 0.25s ease-in-out;
+  border-bottom: 1.5px solid var(--pink);
 }
-.logo
-{
-  margin:15px;
+.list{
+  float: right;
 }
-.button-small
-{
+.navbar div:last-of-type{
+  width: 10%;
+}
+.navbar div:last-of-type button{
   padding: 10px 30px;
-  color:var(--white);
-  background-color:var(--pink);
-  border: 0;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 20px 0 0 350px;
-  transition: 0.2s ease-in-out;
+  border-radius: 3px;
+  border: none;
+  background-color: var(--pink);
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
 }
-.button-small:hover{
-  padding: 9px 28px;
-}
+
 /* ------------------------------ */
 /* ---------- HERO ------------ */
 /* ------------------------------ */
 
-.hero-heading
-{
-  color:var(--yellow);
-  font-size: 5rem;
-  text-align: center;
-  word-wrap: break-word;
-  letter-spacing: 4px;
-  padding: 0 20%;
+
+.hero{
+  width: 100%;
 }
-.button-large
-{
-  margin-top: 50px;
+.hero-heading{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  font-weight: 900;
+  text-align: center;
+ font-size: clamp(2.5rem, 4vw + 1rem, 5rem);
+ color: var(--yellow);
+}
+.hero button{
+  display: block;
+  margin: 0 auto;
   padding: 15px 30px;
-  border: 0;
-  border-radius: 2px;
+  background-color: var(--pink);
+  border-radius: 5px;
   color: var(--white);
-  background-color:var(--pink);
-  letter-spacing: 2px;
-  font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
+  border: none;
   cursor: pointer;
-  width: 20%;
-  margin-left: 500px;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 200px;
+}
+.bottom img{
+  width: 100%;
 }
 .button-large:hover{
-  transition: 0.3s ease-in-out;
-  padding: 10px 20px;
+  transition: 0.2s ease-in-out;
+  padding: 10px 22px;
   font-size: 1.2rem;
 }
-.bottom
-{
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
-}
 
 /* ------------------------------ */
-/* ---------- mobile responsive ------------ */
+/* ---------- MEDIA QUERIE ------------ */
 /* ------------------------------ */
+@media (max-width:1024px){
+  .navbar div:nth-last-child(-n+2) 
+  {display: none;}
+  .hero-heading{
+    width: 70vw;
+  }
+  .bottom{
+    max-width: 80px;
+  }
+  .navbar div:first-of-type{
+    width: 25%;
+  }
 
-@media screen and (max-width:1000px) {
-  .hero-heading
-  {
-    font-size: 3em;
-    word-wrap: break-word;
-  }
-  .hero{
-    margin-top: 15%;
-  }
-  .bottom img
-  {
-    width: 100px;
-  }
-  .list , .button-small{
-    display: none;
-  }
-  
-.hero-heading
-{
-  font-size: 3.5rem;
-  letter-spacing: 1px;
-  padding: 0;
-}
-.button-large
-{
-  margin-top: 10px;
-  padding: 15px 30px;
-  width: 50%;
-  margin-left: 100px;
-}
 }

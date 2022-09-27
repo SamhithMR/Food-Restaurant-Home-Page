@@ -1,16 +1,39 @@
-
 # Food Restaurant Home Page
-Designed and developed this completely responsive Food Restaurant Home Page just by using HTML and CSS. developed a good in depth knowledge in `background Positioning`,` cliping background`,` CSS Positioning` ,` CSS selectors` ,` styling elements` ,` aligning elements `.
 
-### preview
-can acess this project demo [here](https://samhith14.netlify.app/)
+## 🔗Demo Link
+https://samhith02.netlify.app/
 
-## This is a simple javascript project focused on
-- Responsive Web design
-- redundant code
-- structured
-- creative UI design for Food Restaurant Home Page
-- and does not contain errors
+Built this **Responsive** Homepage **without using flexbox or grid** only by using HTML and CSS. 
+<br>
 
-## Screenshots
-![preview](https://github.com/SamhithMR/Food-Restaurant-Home-Page/blob/main/preview2.png)
+<br>
+
+## 📌 Tech Stack
+
+[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/pk170970)&nbsp;
+[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/pk170970)&nbsp;
+<br>
+<br>
+
+
+
+## 📌 What I Learn
+
+
+  👉 **Structuring HTML**  <br>
+  👉 **mastered centering elements** <br>
+  👉 **CSS Selectors**  <br> 
+  👉 **Advanced positioning properties** <br>
+  👉 Units like pixels, viewports,percentage  <br>
+  👉 **build a responsive website without flex box or grid** <br>
+  👉 Less HTML and CSS with beautiful **UI Template** <br>
+
+
+## Time taken to complete this project was less than **1 hr**.
+<br>
+
+## 📌 Overview
+
+<br>
+
+![Screenshot](./preview2.png) "Template Screenshot")
