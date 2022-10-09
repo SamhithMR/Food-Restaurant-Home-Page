@@ -139,5 +139,8 @@
   .navbar div:first-of-type{
     width: 25%;
   }
+  .hero-heading{
+    margin: 5rem auto;
+  }
 
 }

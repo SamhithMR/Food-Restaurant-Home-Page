@@ -1,6 +1,6 @@
 # Food Restaurant Home Page
 
-Built this **Responsive** Homepage **without using flexbox or grid** only by using HTML and CSS. 
+Designed and developed this **Responsive** Homepage **without using flexbox or grid** in HTML and CSS. 
 <br>
 
 <br>
@@ -17,12 +17,12 @@ Built this **Responsive** Homepage **without using flexbox or grid** only by usi
 ## 📌 What I Learn
 
 
-  👉 **Structuring HTML**  <br>
-  👉 **mastered centering elements** <br>
-  👉 **CSS Selectors**  <br> 
-  👉 **Advanced positioning properties** <br>
-  👉 Units like pixels, viewports,percentage  <br>
+  👉 **CSS Positions**  <br>
   👉 **build a responsive website without flex box or grid** <br>
+  👉 **centering elements** <br>
+  👉 **CSS Selectors**  <br> 
+  👉 **variable font sizes** <br>
+  👉 Units like pixels, viewports,percentage  <br>
   👉 Less HTML and CSS with beautiful **UI Template** <br>
 
 
